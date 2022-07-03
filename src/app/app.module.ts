@@ -6,6 +6,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { Map2dComponent } from './map2d/map2d.component';
 import { MapglComponent } from './mapgl/mapgl.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { MapglComponent } from './mapgl/mapgl.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    BrowserAnimationsModule
   ],
   providers: [{ provide: APP_BASE_HREF, useValue: './' }],
   bootstrap: [AppComponent]
