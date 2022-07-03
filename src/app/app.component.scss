@@ -1,0 +1,44 @@
+@import '../assets/scss/base/base.scss';
+
+
+.layout-wrapper {
+  width: 100%;
+  box-shadow: 0px 1px 4px 0px rgba($color: #374358, $alpha: .1);
+  margin-top: 36px;
+
+  &:first-child {
+    margin-top: 0;
+  }
+}
+
+app-header {
+  text-align: center;
+  line-height: 40px;
+  background-color: $bmapui-base-bg-dark; 
+  color: $bmapui-light-text;
+}
+
+app-sider {
+  height: 100%;
+  min-height: 200px;
+  min-width: 120px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: $bmapui-base-bg;
+}
+
+app-mapgl {
+  background-color: $bmapui-global-bg;
+}
+
+app-footer {
+  color: $bmapui-light-text;
+  background-color: $bmapui-base-bg-dark;
+  padding: 8px 24px;
+}
+
+mat-grid-tile {
+  background: lightblue;
+}
